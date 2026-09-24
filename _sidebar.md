@@ -1,41 +1,64 @@
-* [2026 Agent 调研报告](2026-agent-survey-report.md)
+* [首页](README.md)
+* [2026 Agent 开发者调研报告](2026-agent-survey-report.md)
 * [前言](00-preface/README.md)
 
 * **01 架构篇**
-  * [1. AI 原生应用的新阶段](01-architecture/01-new-stage-of-ai-native-apps.md)
-  * [2. Agentic Application 参考架构](01-architecture/02-reference-architecture.md)
+  * [第 1 章 AI 原生应用的新阶段](01-architecture/第%201%20章%E3%80%80AI%20原生应用的新阶段.md)
+  * [第 2 章 Agentic Application 参考架构](01-architecture/第%202%20章%E3%80%80Agentic%20Application%20参考架构.md)
 
 * **02 构建篇**
-  * [3. Harness 构建方式与边界](02-build/03-harness-paradigms.md)
-  * [4. 任务编排与长程推进](02-build/04-task-orchestration.md)
-  * [5. 上下文与状态资产](02-build/05-context-state-assets.md)
-  * [6. 受控执行与环境契约](02-build/06-action-plane.md)
+  * [第 3 章 范式：Harness 的主流构建方式和责任边界](02-build/第%203%20章%E3%80%80范式：Harness%20的主流构建方式和责任边界.md)
+  * [第 4 章 任务：编排、长程推进与协作流转](02-build/第%204%20章%E3%80%80任务：编排、长程推进与协作流转.md)
+  * [第 5 章 信息：上下文、状态与可复用能力资产](02-build/第%205%20章%E3%80%80信息：上下文、状态与可复用能力资产.md)
+  * [第 6 章 行动：受控执行、验证反馈与交付准备](02-build/第%206%20章%E3%80%80行动：受控执行、验证反馈与交付准备.md)
 
 * **03 运行篇**
-  * [7. 运行时与沙箱](03-run/07-runtime-sandbox.md)
-  * [8. 状态存储与语义资产](03-run/08-state-storage.md)
-  * [9. AI 网关与流量治理](03-run/09-ai-gateway.md)
-  * [10. 异步任务与自动化流程](03-run/10-async-workflow.md)
-  * [11. Multi-Agent 协作与编排](03-run/11-multi-agent.md)
-  * [12. Agent 分布式通信](03-run/12-distributed-communication.md)
+  * [第 7 章 Agent 运行时与沙箱](03-run/第%207%20章%E3%80%80Agent%20运行时与沙箱.md)
+  * [第 8 章 Agent 状态存储与语义资产](03-run/第%208%20章%E3%80%80Agent%20状态存储与语义资产.md)
+  * [第 9 章 AI 网关与统一流量治理](03-run/第%209%20章%E3%80%80AI%20网关与统一流量治理.md)
+  * [第 10 章 Agent 异步任务与自动化流程](03-run/第%2010%20章%E3%80%80Agent%20异步任务与自动化流程.md)
+  * [第 11 章 Multi-Agent 协作与编排](03-run/第%2011%20章%E3%80%80Multi-Agent%20协作与编排.md)
+  * [第 12 章 Agent 分布式通信](03-run/第%2012%20章%E3%80%80Agent%20分布式通信.md)
 
 * **04 治理篇**
-  * [13. 可观测性](04-governance/13-observability.md)
-  * [14. Agent 安全](04-governance/14-security.md)
-  * [15. AI 资产发现与管理](04-governance/15-asset-discovery.md)
-  * [16. 行为生成与质量验证](04-governance/16-behavior-simulation.md)
+  * [第 13 章 Agent 的可观测性](04-governance/第%2013%20章%E3%80%80Agent%20的可观测性.md)
+  * [第 14 章 Agent 安全](04-governance/第%2014%20章%E3%80%80Agent%20安全.md)
+  * [第 15 章 AI 资产的发现与管理](04-governance/第%2015%20章%E3%80%80AI%20资产的发现与管理.md)
+  * [第 16 章 Agent 行为生成与质量验证](04-governance/第%2016%20章%E3%80%80Agent%20行为生成与质量验证.md)
 
 * **05 调优篇**
-  * [17. 模型调优](05-optimization/17-model-tuning.md)
-  * [18. Agent 调优总览](05-optimization/18-agent-tuning-overview.md)
-  * [19-24. 轨迹数据与评估](05-optimization/)
+  * [第 17 章 模型调优](05-optimization/第%2017%20章%E3%80%80模型调优.md)
+  * [第 18 章 Agent 调优总览](05-optimization/第%2018%20章%E3%80%80Agent%20调优总览.md)
+  * [第 19 章 Agent 轨迹数据](05-optimization/第%2019%20章%E3%80%80Agent%20轨迹数据.md)
+  * [第 20 章 Agent 运行时数据处理](05-optimization/第%2020%20章%E3%80%80Agent%20运行时数据处理.md)
+  * [第 21 章 Agent 黄金数据集](05-optimization/第%2021%20章%E3%80%80Agent%20黄金数据集.md)
+  * [第 22 章 Agent 优化：Badcase 驱动](05-optimization/第%2022%20章%E3%80%80Agent%20优化：Badcase.md)
+  * [第 23 章 受控自进化](05-optimization/第%2023%20章%E3%80%80受控自进化.md)
+  * [第 24 章 Agent 边缘运行时与全球优化](05-optimization/第%2024%20章%E3%80%80Agent%20边缘运行时与全球优化.md)
 
 * **06 实践篇**
-  * [25. 研发效能](06-case-study/25-software-engineering.md)
-  * [26. 设计工程](06-case-study/26-design-engineering.md)
-  * [27. 运维与企业 IT](06-case-study/27-devops-and-security.md)
-  * [28. 客户与业务运营](06-case-study/28-customer-and-sales.md)
-  * [29. GOAI 前沿探索](06-case-study/29-goai-frontier.md)
+  * **第 25 章 研发效能**
+    * [ABACI 内核补丁定向测试与缺陷检测智能体](06-case-study/第%2025%20章%E3%80%80研发效能/ABACI%EF%BC%9A内核补丁定向测试与缺陷检测智能体.md)
+    * [Kitta：领域专用 Code Review Agent](06-case-study/第%2025%20章%E3%80%80研发效能/Kitta%EF%BC%9A领域专用%20Code%20Review%20Agent.md)
+    * [PatchPilot Agents：内核补丁交付工程闭环](06-case-study/第%2025%20章%E3%80%80研发效能/PatchPilot%20Agents%EF%BC%9A让内核补丁交付成为可编排、可验证的工程闭环.md)
+    * [PolarDB-X 的 Loop 工程实践](06-case-study/第%2025%20章%E3%80%80研发效能/从报警到自动修复，PolarDB-X%20的%20Loop%20工程实践.md)
+    * [云通信人机协作实践](06-case-study/第%2025%20章%E3%80%80研发效能/从编码提效到端到端交付，云通信的人机协作实践.md)
+    * [AI Agent 安全产品研发提效实践](06-case-study/第%2025%20章%E3%80%80研发效能/从评测驱动到端到端交付：AI%20Agent%20安全产品研发提效实践.md)
+    * [多 Agent 研发小队端到端交付](06-case-study/第%2025%20章%E3%80%80研发效能/多%20Agent%20组成研发小队：AI%20研发如何从写代码走向端到端交付.md)
+  * **第 26 章 设计工程**
+    * [GenUI：让 Agent 从给出答案走向交付结果](06-case-study/第%2026%20章%E3%80%80设计工程/GenUI%EF%BC%9A让%20Agent%20从给出答案走向交付结果.md)
+    * [Vibe Designing：意图驱动的设计范式进化](06-case-study/第%2026%20章%E3%80%80设计工程/Vibe%20Designing%EF%BC%9A意图驱动的%20AI%20设计范式进化.md)
+  * **第 27 章 运维、安全与企业 IT**
+    * [吉利汽车智能运维落地实践](06-case-study/第%2027%20章%E3%80%80运维、安全与企业%20IT/吉利汽车智能运维的落地实践.md)
+    * [塔斯汀万店连锁智能运维闭环实践](06-case-study/第%2027%20章%E3%80%80运维、安全与企业%20IT/塔斯汀万店连锁的智能运维闭环实践.md)
+    * [畅捷通可观测与智能运维实践](06-case-study/第%2027%20章%E3%80%80运维、安全与企业%20IT/畅捷通的可观测与智能运维实践.md)
+  * **第 28 章 客户、销售与运营**
+    * [MiniMax 构建海量长周期记忆数据底座](06-case-study/第%2028%20章%E3%80%80客户、销售与运营/MiniMax%20构建海量长周期记忆数据底座的实践.md)
+    * [信永中和办公提效探索](06-case-study/第%2028%20章%E3%80%80客户、销售与运营/会计师事务所信永中和的办公提效探索.md)
+    * [哔哩哔哩构建全域内容洞察的实践](06-case-study/第%2028%20章%E3%80%80客户、销售与运营/哔哩哔哩构建全域内容洞察的实践.md)
+    * [运营分析 Data Agent 实践](06-case-study/第%2028%20章%E3%80%80客户、销售与运营/运营分析%20Data%20Agent%20实践.md)
+  * **第 29 章 GOAI 前沿探索**
+    * [多 Agent 协同的前沿实践探索](06-case-study/第%2029%20章%E3%80%80GOAI%20Agent%20Infra%20赛道：多%20Agent%20协同的前沿实践探索/GOAI%20Agent%20Infra%20赛道：多%20Agent%20协同的前沿实践探索.md)
 
 * **07 总结与展望**
-  * [30. 迈向 Agentic OS](07-conclusion/30-towards-agentic-os.md)
+  * [第 30 章 从 Agentic Application 到 Agentic OS](07-conclusion/第%2030%20章%E3%80%80从%20Agentic%20Application%20走向%20Agentic%20OS.md)
